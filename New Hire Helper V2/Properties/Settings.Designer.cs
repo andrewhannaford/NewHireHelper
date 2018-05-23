@@ -26,8 +26,9 @@ namespace New_Hire_Helper_V2.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\NewEmployee.m" +
-            "df;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Server=Server=localhost\\SQLEXPRESS;Database=NewHireHelper;Trusted_Connection=True" +
+            ";;Database=;Trusted_Connection=Yes;Integrated Security=True\" providerName=\"Syste" +
+            "m.Data.SqlClient")]
         public string NewEmployeeConnectionString {
             get {
                 return ((string)(this["NewEmployeeConnectionString"]));

@@ -14,9 +14,10 @@ namespace New_Hire_Helper_V2
         [STAThread]
         static void Main()
         {
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new newEmployeeButton());
+            Application.Run(new UserLogin());
         }
     }
 }

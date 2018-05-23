@@ -26,13 +26,44 @@ namespace New_Hire_Helper_V2
         {
             newEmployeeButton newEmployee = new newEmployeeButton();
             newEmployee.Show();
+            this.Hide();
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Task task = new Task();
+            NewEmployeeList task = new NewEmployeeList();
             task.Show();
+            this.Hide();
+        }
+
+        private void MainMenu_Load(object sender, EventArgs e)
+        {
+            userLabel.Text = User.getUserName();
+        }
+
+        private void MainMenu_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            
+        }
+
+        private void MainMenu_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            User_Registration registration = new User_Registration();
+            registration.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            UserLogin login = new UserLogin();
+            login.Show();
+            this.Hide();
         }
     }
 }

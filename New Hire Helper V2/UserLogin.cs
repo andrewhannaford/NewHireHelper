@@ -36,7 +36,40 @@ namespace New_Hire_Helper_V2
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string email = emailText.Text;
+            string password = passwordText.Text;
+            bool check = User.activeUser(email, password);
 
+            //if the login was sucessful it pushes them on to the main login screen
+            if (check) {
+                MainMenu menu = new MainMenu();
+                menu.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Your email or password are incorrect.");
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MainMenu menu = new MainMenu();
+            menu.Show();
+            this.Hide();
+
+        }
+
+        private void UserLogin_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ForgotPassword forgot = new ForgotPassword();
+            forgot.Show();
+            this.Hide();
         }
     }
 }

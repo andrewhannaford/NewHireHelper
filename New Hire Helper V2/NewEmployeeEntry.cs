@@ -19,12 +19,10 @@ namespace New_Hire_Helper_V2
         {
             if (textBox.Equals(""))
                 {
-                textBox = "NULL";
+                textBox = "null";
                 }
             return textBox;
         }
-
-        string connectionString;
         public newEmployeeButton()
         {
             InitializeComponent();
@@ -33,7 +31,7 @@ namespace New_Hire_Helper_V2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-           // connectionString = ConfigurationManager.ConnectionStrings["Data Source=(LocalDB)\\NewHireDatabase;AttachDbFilename=C:\\Users\andrewh\\Documents\\New Hire Helper\\New Hire Helper V2\\New Hire Helper V2\\NewHireDatabase.mdf;Integrated Security=True;Context Connection=False"].ConnectionString;
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -76,23 +74,43 @@ namespace New_Hire_Helper_V2
             workPhone = checkNull(workPhone);
             cellPhone = checkNull(cellPhone);
 
+
             //concatenates the values into a query so the values can be added as a record to the database
 
-            string values = "(" + name + ", " + title + ", " + department + ", " + manager + ", " + location + ", " + startDate + ", " + orientation + ", " + workPhone + ", " + cellPhone + ")";
+            string query = "INSERT INTO Employee (name, title, department, manager, location, startDate, orientationLocation, workPhone, cellPhone) " +
+                           "VALUES (@name, @title, @department, @manager, @location, @startDate, @orientationLocation, @workPhone, @cellPhone)";
 
-            string query = "INSTERT INTO Employee (name, title, department, manager, location, startDate, orientationLocation, workPhone, cellPhone) "+
-                           "VALUES " + values;
+            using (SqlConnection scon = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString))
 
-            //MessageBox.Show(values);
-            //MessageBox.Show(query);
-
-            using (SqlConnection connection = new SqlConnection(connectionString))
-            using (SqlCommand command = new SqlCommand(query, connection))
             {
-                
+                SqlCommand sc = new SqlCommand(query, scon);
+
+                sc.Parameters.AddWithValue("name", name);
+                sc.Parameters.AddWithValue("title", title);
+                sc.Parameters.AddWithValue("department", department);
+                sc.Parameters.AddWithValue("manager", manager);
+                sc.Parameters.AddWithValue("location", location);
+                sc.Parameters.AddWithValue("startDate", startDate);
+                sc.Parameters.AddWithValue("orientationLocation", orientation);
+                sc.Parameters.AddWithValue("workPhone", workPhone);
+                sc.Parameters.AddWithValue("cellPhone", cellPhone);
+
+                scon.Open();
+                sc.ExecuteNonQuery();
+
+
             }
+            MainMenu menu = new MainMenu();
+            menu.Show();
+            this.Close();
 
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MainMenu menu = new MainMenu();
+            menu.Show();
+            this.Close();
         }
     }
 }
