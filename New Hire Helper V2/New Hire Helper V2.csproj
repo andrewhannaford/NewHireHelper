@@ -94,6 +94,12 @@
     <Compile Include="NewEmployeeList.Designer.cs">
       <DependentUpon>NewEmployeeList.cs</DependentUpon>
     </Compile>
+    <Compile Include="Task.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Task.Designer.cs">
+      <DependentUpon>Task.cs</DependentUpon>
+    </Compile>
     <Compile Include="User Registration.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +133,9 @@
     </Compile>
     <EmbeddedResource Include="NewEmployeeList.resx">
       <DependentUpon>NewEmployeeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Task.resx">
+      <DependentUpon>Task.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User Registration.resx">
       <DependentUpon>User Registration.cs</DependentUpon>

@@ -19,6 +19,15 @@ namespace New_Hire_Helper_V2
             InitializeComponent();
         }
 
+        public string checkNull(string textBox)
+        {
+            if (textBox.Equals(""))
+            {
+                textBox = "null";
+            }
+            return textBox;
+        }
+
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -35,15 +44,15 @@ namespace New_Hire_Helper_V2
         {
 
             // Takes the values from the text boxes and puts them into strings
-            string email = emailText.Text;
-            string confirmEmail = emailConfirmText.Text;
-            string name = nameText.Text;
-            string password = passwordText.Text;
-            string confirmPassword = passwordConfirmText.Text;
-            string title = titleComboBox.Text;
+            string email = checkNull(emailText.Text);
+            string confirmEmail = checkNull(emailConfirmText.Text);
+            string name = checkNull(nameText.Text);
+            string password = checkNull(passwordText.Text);
+            string confirmPassword = checkNull(passwordConfirmText.Text);
+            string title = checkNull(titleComboBox.Text);
 
             //checks to make sure that the password and email are correct before trying to submit to the database
-            if (email.Equals(confirmEmail) && password.Equals(confirmPassword))
+            if (email.Equals(confirmEmail) && password.Equals(confirmPassword) && !password.Equals("null") && !email.Equals("null"))
             {
                 //concatenates the values into a query so the values can be added as a record to the database
 
