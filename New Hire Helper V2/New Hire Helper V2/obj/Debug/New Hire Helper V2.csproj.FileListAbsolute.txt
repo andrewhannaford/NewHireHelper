@@ -1,0 +1,44 @@
+C:\Users\andrewh\Documents\New Hire Helper\New Hire Helper V2\New Hire Helper V2\obj\Debug\New Hire Helper V2.csprojAssemblyReference.cache
+C:\Users\andrewh\Documents\New Hire Helper\New Hire Helper V2\New Hire Helper V2\obj\Debug\New_Hire_Helper_V2.newEmployeeButton.resources
+C:\Users\andrewh\Documents\New Hire Helper\New Hire Helper V2\New Hire Helper V2\obj\Debug\New_Hire_Helper_V2.Properties.Resources.resources
+C:\Users\andrewh\Documents\New Hire Helper\New Hire Helper V2\New Hire Helper V2\obj\Debug\New Hire Helper V2.csproj.GenerateResource.cache
+C:\Users\andrewh\Documents\New Hire Helper\New Hire Helper V2\New Hire Helper V2\obj\Debug\New Hire Helper V2.csproj.CoreCompileInputs.cache
+C:\Users\andrewh\Documents\New Hire Helper\New Hire Helper V2\New Hire Helper V2\bin\Debug\New Hire Helper V2.exe
+C:\Users\andrewh\Documents\New Hire Helper\New Hire Helper V2\New Hire Helper V2\bin\Debug\New Hire Helper V2.pdb
+C:\Users\andrewh\Documents\New Hire Helper\New Hire Helper V2\New Hire Helper V2\obj\Debug\New Hire Helper V2.exe
+C:\Users\andrewh\Documents\New Hire Helper\New Hire Helper V2\New Hire Helper V2\obj\Debug\New Hire Helper V2.pdb
+C:\Users\andrewh\Documents\New Hire Helper\New Hire Helper V2\New Hire Helper V2\obj\Debug\New_Hire_Helper_V2.UserLogin.resources
+C:\Users\andrewh\Documents\New Hire Helper\New Hire Helper V2\New Hire Helper V2\obj\Debug\New_Hire_Helper_V2.MainMenu.resources
+C:\Users\andrewh\Documents\New Hire Helper\New Hire Helper V2\New Hire Helper V2\obj\Debug\New_Hire_Helper_V2.User_Registration.resources
+C:\Users\andrewh\Documents\New Hire Helper\New Hire Helper V2\New Hire Helper V2\bin\Debug\New Hire Helper V2.exe.config
+C:\Users\andrewh\Documents\New Hire Helper\New Hire Helper V2\New Hire Helper V2\obj\Debug\New_Hire_Helper_V2.ForgotPassword.resources
+C:\Users\andrewh\Documents\New Hire Helper\New Hire Helper V2\New Hire Helper V2\obj\Debug\New_Hire_Helper_V2.NewEmployeeList.resources
+C:\Users\andrewh\Desktop\Stoneridge\New Hire Helper\New Hire Helper V2\New Hire Helper V2\obj\Debug\New Hire Helper V2.csprojAssemblyReference.cache
+C:\Users\andrewh\Desktop\Stoneridge\New Hire Helper\New Hire Helper V2\New Hire Helper V2\obj\Debug\New_Hire_Helper_V2.ForgotPassword.resources
+C:\Users\andrewh\Desktop\Stoneridge\New Hire Helper\New Hire Helper V2\New Hire Helper V2\obj\Debug\New_Hire_Helper_V2.MainMenu.resources
+C:\Users\andrewh\Desktop\Stoneridge\New Hire Helper\New Hire Helper V2\New Hire Helper V2\obj\Debug\New_Hire_Helper_V2.newEmployeeButton.resources
+C:\Users\andrewh\Desktop\Stoneridge\New Hire Helper\New Hire Helper V2\New Hire Helper V2\obj\Debug\New_Hire_Helper_V2.Properties.Resources.resources
+C:\Users\andrewh\Desktop\Stoneridge\New Hire Helper\New Hire Helper V2\New Hire Helper V2\obj\Debug\New_Hire_Helper_V2.NewEmployeeList.resources
+C:\Users\andrewh\Desktop\Stoneridge\New Hire Helper\New Hire Helper V2\New Hire Helper V2\obj\Debug\New_Hire_Helper_V2.Task.resources
+C:\Users\andrewh\Desktop\Stoneridge\New Hire Helper\New Hire Helper V2\New Hire Helper V2\obj\Debug\New_Hire_Helper_V2.User_Registration.resources
+C:\Users\andrewh\Desktop\Stoneridge\New Hire Helper\New Hire Helper V2\New Hire Helper V2\obj\Debug\New_Hire_Helper_V2.UserLogin.resources
+C:\Users\andrewh\Desktop\Stoneridge\New Hire Helper\New Hire Helper V2\New Hire Helper V2\obj\Debug\New Hire Helper V2.csproj.GenerateResource.cache
+C:\Users\andrewh\Desktop\Stoneridge\New Hire Helper\New Hire Helper V2\New Hire Helper V2\obj\Debug\New Hire Helper V2.csproj.CoreCompileInputs.cache
+C:\Users\andrewh\Desktop\Stoneridge\New Hire Helper\New Hire Helper V2\New Hire Helper V2\obj\Debug\New Hire Helper V2.exe
+C:\Users\andrewh\Desktop\Stoneridge\New Hire Helper\New Hire Helper V2\New Hire Helper V2\obj\Debug\New Hire Helper V2.pdb
+C:\Users\andrewh\Desktop\New Hire Helper V2\New Hire Helper V2\obj\Debug\New Hire Helper V2.csprojAssemblyReference.cache
+C:\Users\andrewh\Desktop\New Hire Helper V2\New Hire Helper V2\obj\Debug\New_Hire_Helper_V2.ForgotPassword.resources
+C:\Users\andrewh\Desktop\New Hire Helper V2\New Hire Helper V2\obj\Debug\New_Hire_Helper_V2.MainMenu.resources
+C:\Users\andrewh\Desktop\New Hire Helper V2\New Hire Helper V2\obj\Debug\New_Hire_Helper_V2.newEmployeeButton.resources
+C:\Users\andrewh\Desktop\New Hire Helper V2\New Hire Helper V2\obj\Debug\New_Hire_Helper_V2.Properties.Resources.resources
+C:\Users\andrewh\Desktop\New Hire Helper V2\New Hire Helper V2\obj\Debug\New_Hire_Helper_V2.NewEmployeeList.resources
+C:\Users\andrewh\Desktop\New Hire Helper V2\New Hire Helper V2\obj\Debug\New_Hire_Helper_V2.Task.resources
+C:\Users\andrewh\Desktop\New Hire Helper V2\New Hire Helper V2\obj\Debug\New_Hire_Helper_V2.User_Registration.resources
+C:\Users\andrewh\Desktop\New Hire Helper V2\New Hire Helper V2\obj\Debug\New_Hire_Helper_V2.UserLogin.resources
+C:\Users\andrewh\Desktop\New Hire Helper V2\New Hire Helper V2\obj\Debug\New Hire Helper V2.csproj.GenerateResource.cache
+C:\Users\andrewh\Desktop\New Hire Helper V2\New Hire Helper V2\obj\Debug\New Hire Helper V2.csproj.CoreCompileInputs.cache
+C:\Users\andrewh\Desktop\New Hire Helper V2\New Hire Helper V2\obj\Debug\New Hire Helper V2.exe
+C:\Users\andrewh\Desktop\New Hire Helper V2\New Hire Helper V2\obj\Debug\New Hire Helper V2.pdb
+C:\Users\andrewh\Desktop\New Hire Helper V2\New Hire Helper V2\bin\Debug\New Hire Helper V2.exe.config
+C:\Users\andrewh\Desktop\New Hire Helper V2\New Hire Helper V2\bin\Debug\New Hire Helper V2.exe
+C:\Users\andrewh\Desktop\New Hire Helper V2\New Hire Helper V2\bin\Debug\New Hire Helper V2.pdb
